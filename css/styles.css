@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: auto 16px;
+}
+
+.advice-box {
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  background-color: hsl(217, 19%, 24%);
+  padding: 48px 48px 0 48px;
+  border-radius: 15px;
+}
+
+.adv-id {
+  color: hsl(150, 100%, 66%);
+  font-size: 13px;
+  line-height: 17.76px;
+  letter-spacing: 4.09px;
+  text-transform: uppercase;
+}
+
+.advice {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+  line-height: 38.25px;
+  letter-spacing: -0.3px;
+}
+
+.advice-box picture img {
+  width: 100%;
+}
+
+.dice {
+  display: block;
+  background-color: hsl(150, 100%, 66%);
+  padding: 20px;
+  border-radius: 50%;
+  margin: 8px auto -32px auto;
+  cursor: pointer;
+}
+
+.dice:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 480px) {
+  .advice-box {
+    gap: 24px;
+    padding: 40px 24px 0 24px;
+  }
+
+  .adv-id {
+    font-size: 11px;
+    line-height: 15.03px;
+    letter-spacing: 3.46px;
+  }
+
+  .advice {
+    font-size: 24px;
+    line-height: 32.78px;
+    letter-spacing: -0.26px;
+  }
+}
