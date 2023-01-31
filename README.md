@@ -24,7 +24,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/iflucian/advice-generator-app](https://github.com/iflucian/advice-generator-app)
 - Live Site URL: [https://iflucian.dev/practice/advice-generator-app/](https://iflucian.dev/practice/advice-generator-app)
 
 ## Built with
